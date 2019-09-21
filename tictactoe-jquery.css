@@ -8,7 +8,8 @@ table {
 }
 
 #gameBoard {
-  padding: 0px;
+  background-color: green;
+  padding: 0;
   margin: 0 auto;
   margin-top: 25px;
 }
@@ -16,13 +17,13 @@ table {
 #gameBoard tr td{
   width: 80px;
   height: 80px;
-  border: 1px solid #1c1c1c;
+  border: 3px solid darkgoldenrod;
   font-family: Helvetica;
   text-align: center;
   font-size: 30px;;
 }
 
 #gameBoard tr td:hover {
-  background: #e4e4e4;
+  background: lightyellow;
   cursor: pointer;
 }
