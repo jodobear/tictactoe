@@ -5,3 +5,4 @@ package.json
 script.js
 style.css
 
+.eslintrc.json
