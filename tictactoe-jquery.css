@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  align-content: center;
   padding:0;
 }
 table {
@@ -7,8 +7,14 @@ table {
   border-spacing: 0;
 }
 
+.title{
+  color: rgba(255,75,75,0.5);
+  padding: 5px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
 #gameBoard {
-  background-color: green;
+  background-color: green; /* alternate rep: rgb(0,255,0) converting it in hex(base 16) = 0==00, 255==FF, 0==00 => #00FF00*/
   padding: 0;
   margin: 0 auto;
   margin-top: 25px;
