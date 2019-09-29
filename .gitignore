@@ -1,8 +1,6 @@
 node_modules
-index.html
 package-lock.json
 package.json
 script.js
-style.css
 
 .eslintrc.json
